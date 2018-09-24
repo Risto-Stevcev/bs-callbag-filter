@@ -1,0 +1,28 @@
+{
+  "name": "@ristostevcev/bs-callbag-filter",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files" : ["CallbagFilter.ml", "CallbagFilter.mli"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-for-each",
+    "@ristostevcev/bs-callbag-from-iter"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
